@@ -13,7 +13,7 @@
   --font-body: "Poppins", Arial, Helvetica, sans-serif;
   --font-script: "Kaushan Script", cursive;
 
-  --header-height: 96px;
+  --header-height: 264px;
   --container-max: 1280px;
   --section-padding-x: clamp(24px, 6vw, 96px);
 }
@@ -133,7 +133,7 @@ button {
 }
 
 .logo img {
-  height: 76px;
+  height: 228px;
   width: auto;
 }
 
@@ -618,7 +618,7 @@ button {
 
 @media (max-width: 900px) {
   :root {
-    --header-height: 84px;
+    --header-height: 264px;
   }
 
   .nav {
@@ -739,7 +739,11 @@ button {
 }
 
 @media (max-width: 480px) {
+  :root {
+    --header-height: 210px;
+  }
+
   .logo img {
-    height: 58px;
+    height: 174px;
   }
 }
